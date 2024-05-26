@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gaegu&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Madimi+One&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Courgette&family=Gaegu&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Madimi+One&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+	<link rel="icon" type="image/x-icon" href="cat no bg.png">
+	<title>Quiz 2: 1st Quarter</title>
+	<script>
+		let profile = "index.html";
+		document.getElementById("profile").onclick = function () {
+		window.location.replace("profile");
+	};
+
+		let main = "mainpage.html";
+		document.getElementById("main").onclick = function () {
+		window.location.replace("main");
+	};
+
+		let quarter2 = "page3.html";
+		document.getElementById("2nd").onclick = function () {
+		window.location.replace("quarter2");
+	};
+	</script>
+	<style>
+		body {
+			background-color: #ffe0f3;
+			font-family: "Quicksand", serif;
+		}
+		table {
+			background-color: lavenderblush;
+			border-color: lavenderblush;
+			padding: 10px;
+			border: 3;
+			border-spacing: 10px;
+		}
+		form {
+			margin-left: 800px;
+			font-family: "Quicksand", sans-serif;
+			font-weight: 700px;
+		}
+
+		h1 {
+			font-family: "Josefin Slab", serif;
+			color: palevioletred;
+		}
+
+		p {
+			color: palevioletred;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm navbar-light bg-light"> 
+	    <div class="container-fluid">
+	     <a class="navbar-brand" href="#">
+	     	<img src="cat light.jpeg" alt="cat logo" height="50" width="50"> 
+	     </a>
+
+	      <div class="collapse navbar-collapse" id="mynavbar">
+	        <ul class="navbar-nav me-auto">
+	          <li class="nav-item">
+	            <a href="mainpage.html" class="nav-link" id="main">Back to Main Page</a>
+	          </li>
+
+    		<div class="collapse navbar-collapse" id="mynavbar">
+    			<ul class="navbar-nav me-auto">
+    				<li class="nav-item dropdown">
+    					<a href="page3.html" class="nav-link" id="2nd">Second Quarter</a>
+    				</li>
+    			</ul>
+    		</div>
+
+    		<li class="nav-item dropdown">
+	             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Registration</a>
+	          	<ul class="dropdown-menu">
+		            <li><a href="index.html" class="dropdown-item" id="profile">Sign up</a></li>
+		            <li><a href="index.html" class="dropdown-item" id="profile">Log in</a></li>
+	           	</ul>
+	        </li>
+
+    		<form class="d-flex">
+	          <input class="form-control me-2" type="text" placeholder="Search up...">
+	          <button class="btn btn-outline-dark" type="button">Search</button>
+	        </form>
+    	</div>
+	</nav>
+
+		<div class="container mt-3">
+			<center><table border="3" cellspacing="10"></center>
+		 		
+		 		<h1><center>Characters in Noli Me Tangere</center></h1>
+
+				<tr>
+		 			<td><img src="kapitan tiago.webp" alt="kapitan tiago" width="150" height="150"></td>
+		 			<td>Kapitan Tiago</td>
+		 			<td>
+		 				<ul>
+		 					<li>a wealthy Filipino who is native-born and lives in Binondo.</li>
+		 					<li>The father of María Clara</li>
+		 				</ul>
+		 			</td>
+		 		</tr>
+
+		 		<tr>
+		 			<td><img src="maria clara.jpg" alt="maria clara" width="150" height="140"></td>
+		 			<td>María Clara</td>
+		 			<td>
+		 				<ul>
+		 					<li>María Clara is portrayed to be a well-respected woman due to her high status</li>
+		 					<li>the daughter of Captain Tiago</li>
+		 					<li>goddaughter of Padre Damaso</li>
+		 					<li>fiance of Crisostomo Ibarra</li>
+		 				</ul>
+		 			</td>
+		 		</tr>
+
+		 		<tr>
+		 			<td><img src="ibarra.jpeg" alt="ibarra" width="150" height="150"></td>
+		 			<td>Juan Crisostomo <br> Ibarra y Magsalin</td>
+		 			<td>
+		 				<ul>
+		 					<li>Ibarra is portrayed to be sophisticated and highly esteemed.</li>
+		 					<li>studied in Europe for 7 years</li>
+		 					<li>fiance of María Clara</li>
+		 					<li>son of Don Rafael</li>
+		 				</ul>
+		 			</td>
+		 		</tr>
+
+		 		<tr>
+		 			<td><img src="padre damaso.jpg" alt="padre damaso" width="150" height="150"></td>
+		 			<td>Padre Damaso</td>
+		 			<td>
+		 				<ul>
+		 					<li>an elderly Franciscan priest who has lived among the Filipinos for nearly two decades.</li>
+		 					<li>one of the main antagonists in Noli Me Tangere</li>
+		 					<li>the godfather of María Clara</li>
+		 					<li>the former curate of San Diego, replaced by Padre Salvi</li>
+		 				</ul>
+		 			</td>
+		 		</tr>
+
+		 		<tr>
+		 			<td><img src="padre salvi.webp" alt="padre salvi" width="150" height="150"></td>
+		 			<td>Padre Salvi</td>
+		 			<td>
+		 				<ul>
+		 					<li>a younger, more cunning Spanish priest who assumes control over<br>Padre Damaso’s post as curate of San Diego.</li>
+		 					<li>one of the main antagonists in Noli Me Tangere</li>
+		 				</ul>
+		 			</td>
+		 		</tr>
+
+		 		<tr>
+		 			<td><img src="don rafael.webp" alt="don rafael" width="150" height="150"></td>
+		 			<td>Don Rafael</td>
+		 			<td>
+		 				<ul>
+		 					<li>Ibarra's late father</li>
+		 					<li>was ordered to be jailed under false pretenses</li>
+		 					<li>later died in prison while Ibarra was studying in Europe</li>
+		 				</ul>
+		 			</td>
+		 		</tr>
+
+		 		<tr>
+		 			<td><img src="pilosopo tasyo.jpg" alt="pilosopo tasyo" width="150" height="150"></td>
+		 			<td>Pilosopo Tasyo</td>
+		 			<td>
+		 				<ul>
+		 					<li>his full name is Don Anastasio</li>
+		 					<li>most of the people in his town think he is crazy,<br>even though he is an old man with a background in philosophy</li>
+		 					<li>has a tendency to be pessimistic and has poor trust<br>in the selflessness of other people</li>
+		 				</ul>
+		 			</td>
+		 		</tr>
+
+				<tr>
+		 			<td><img src="sisa crispin at basilio.jpg" alt="sisa, crispin and basilio" width="150" height="150"></td>
+		 			<td>Sisa, Crispin & Basilio</td>
+		 			<td>
+		 				<ul>
+		 					<li>Sisa is the mother of Crispin and Basilio</li>
+		 					<li>Crispin and Basilio are sextons that work for Padre Salvi</li>
+		 				</ul>
+		 			</td>
+		 		</tr>
+		 	</table>
+
+ 	<p><button>Back to Top</button></p>
+
+ 	<p>Want to know more about Noli Me Tangere characters? <button><a href="https://noypi.com.ph/noli-me-tangere-characters/#sisa">Read more</a></button></p>
+
+ 	REFERENCES:<a href="https://www.gmanetwork.com/news/showbiz/chikaminute/846582/here-s-a-guide-to-the-noli-characters-in-maria-clara-at-ibarra/story/">Roque, N. (2022 Oct 1). Here's a guide to the Noli characters in 'Maria Clara at Ibarra'. GMA News. Retrieved from: https://www.gmanetwork.com/news/showbiz/chikaminute/846582/here-s-a-guide-to-the-noli-characters-in-maria-clara-at-ibarra/story/</a>
+
+</body>
+</html>

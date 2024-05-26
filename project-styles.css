@@ -1,0 +1,112 @@
+h1 {
+	color: #8A2387;
+}
+
+body {
+		background-image: url(https://images.unsplash.com/photo-1529686342540-1b43aec0df75?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100% 100%;
+		font-family: "Quicksand", sans-serif;
+		font-weight: 700px;
+	}
+
+h2 {
+	color: #ffd452;
+}
+
+p {
+	color: #FFFFFF;
+}
+
+form {
+	margin-left: 800px;
+}
+
+.header {
+		color: #FFF8C9;
+		background-color: #fbc7d4;
+		background-image: linear-gradient(to right, #654ea3 -50%, #eaafc8 50%);
+	}
+
+.main {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+.place1 {
+		border: 5px dotted #efd8fd;
+		background:#cc85ff;
+		width: 500px;
+		height: 550px;
+		margin: 20px;
+		border-color: #8A2387;
+	}
+
+.text1 {
+		background: linear-gradient(to right,  #654ea3, #eaafc8);
+		border: 5px dotted #efd8fd;
+		width: 500px;
+		height: 550px;
+		margin: 20px;
+		border-color: #8A2387;
+		font-size: 30px;
+	}
+
+.place2 {
+		border: 5px dotted #efd8fd;
+		background:#cc85ff;
+		width: 500px;
+		height: 550px;
+		margin: 20px;
+		border-color: #8A2387;
+	}
+
+.text2 {
+		background: linear-gradient(to right,  #654ea3, #eaafc8);
+		border: 5px dotted #efd8fd;
+		width: 500px;
+		height: 550px;
+		margin: 20px;
+		border-color: #8A2387;
+		font-size: 30px;
+	}
+.place3 {
+		border: 5px dotted #efd8fd;
+		background:#cc85ff;
+		width: 500px;
+		height: 550px;
+		margin: 20px;
+		border-color: #8A2387;
+	}
+.text3 {
+		background: linear-gradient(to right,  #654ea3, #eaafc8);
+		border: 5px dotted #efd8fd;
+		width: 500px;
+		height: 550px;
+		margin: 20px;
+		border-color: #8A2387;
+		font-size: 30px;
+	}
+.place4 {
+		border: 5px dotted #efd8fd;
+		background:#cc85ff;
+		width: 500px;
+		height: 550px;
+		margin: 20px;
+		border-color: #8A2387;
+	}
+.text4 {
+		background: linear-gradient(to right,  #654ea3, #eaafc8);
+		border: 5px dotted #efd8fd;
+		width: 500px;
+		height: 550px;
+		margin: 20px;
+		border-color: #8A2387;
+		font-size: 30px;
+	}
+
+.footer {
+		color: #654ea3;
+}

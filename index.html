@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gaegu&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Madimi+One&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Courgette&family=Gaegu&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Madimi+One&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+	<link rel="icon" type="image/x-icon" href="cat no bg.png">
+	<title>Quiz 2: Log-in</title>
+	<script type="text/javascript">
+		window.alert("hello there! welcome to my portfolio. please create an account before proceeding. 💮(❀´ ˘ `❀)🌸")
+		let profile = "mainpage.html";
+			document.getElementById("prof").onclick = function () {
+			window.location.replace("profile");
+		}; 
+
+		let quarter1 = "page2.html";
+			document. getElementById("Q1").onclick = function () {
+			window.location.replace("1st");
+		};
+
+		let quarter2 = "page3.html";
+			document.getElementById("Q2") .onclick = function () {
+			window.location.replace ("2nd");
+		};
+	</script>
+	<style>
+		body {
+			background-image: url(https://www.teahub.io/photos/full/207-2078042_pastel-aesthetic-cherry-blossom-wallpaper-hd-desktop.jpg);
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 100% 100%;
+			font-family: "Quicksand", sans-serif;
+		}
+
+        form {
+        	width: 600px;
+        	height: 850px;
+			padding: 30px;
+			border-radius: 20px;
+			border-style: solid;
+  			border-width: medium;
+  			border-color: lightcoral;
+  			max-width: 900px;
+  			margin: auto;
+        }
+
+        h1 {
+        	margin: 20px;
+        	font-family: "Courgette", cursive;
+        }
+	</style>
+</head>
+<body>
+	<div class="containers mt-3">
+		<h1><center><strong>Log in / Sign up</strong></center></h1>
+		<div class="register">
+
+			<form class="bg-white">
+			<center><img src="cat no bg.png" alt="kuralogo" height="150" width="150"></center>
+				<div class="username mb-3">
+				<label for="inputUsername"><h4>Username:</label><br><br>
+				<div class="col-sm-10">
+				<input type="username" class="form-control-lg" id="inputUsername" placeholder="Name">
+				</div>
+			</div>
+
+				<div class="email mb-3">
+		        <label for="inputEmail"><h4>Email/Phone Number:</label><br><br>
+		        <div class="col-sm-10">
+		        <input type="email" class="form-control-lg" id="inputEmail" placeholder="Email/Phone No.">
+		        </div>
+		    </div>
+
+		    <div class="password mb-3">
+		        <label for="inputPassword"><h4>Password:</label><br><br>
+		        <div class="col-sm-10">
+		        <input type="password" class="form-control-lg" id="inputPassword" placeholder="Password">
+		        </div>
+		    </div>
+
+		    <div class="password mb-3">
+		        <label for="inputPassword"><h4>Confirm Password:</label><br><br>
+		        <div class="col-sm-10">
+		        <input type="password" class="form-control-lg" id="inputPassword" placeholder="Confirm Password">
+		        </div>
+		    </div>
+
+		    <div class="checkbox mb-3">
+		        <div class="checkAgree mb-3">
+		            <input type="checkbox" id="checkAgree">
+		            <label for="checkAgree">I agree to the terms and conditions</label>
+		            <img src="https://media.tenor.com/HHyhcUbFFjIAAAAj/cherry-blossom.gif" height="50" width="50">
+		        </div>
+		    </div>
+		    <button type="submit" class="btn btn-lg btn-outline-dark"><a href="mainpage.html">Register</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
